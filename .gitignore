@@ -1,0 +1,51 @@
+# Entorno virtual
+venv/
+env/
+ENV/
+.venv
+
+# Archivos Python compilados
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribuciones / empaquetado
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Archivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de gráficas (opcional - puedes comentar esta línea si quieres versionar las gráficas)
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# Archivos de prueba temporales
+prueba*
+!prueba.py
+
